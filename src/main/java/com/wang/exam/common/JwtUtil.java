@@ -16,8 +16,8 @@ import java.util.Map;
 //toke的产生与使用
 public class JwtUtil {
 
-    //密钥
-    private static final String SECRET = "Xk9pLm2Qw8Zt4Yr6Nv1Bc3Df5Gh7Jk0M";
+    //密钥                                //填上你自己的密钥，>=32字节,如f7Kpz9Wq3LmVx2RtYh8Bn4Jc6Dg5Sf1Z
+    private static final String SECRET = "密钥";
     private static final SecretKey KEY = Keys.hmacShaKeyFor(SECRET.getBytes(StandardCharsets.UTF_8));
 
     //Token有效期：1天
